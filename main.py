@@ -18,7 +18,7 @@ elif operacao == '*':
 elif operacao == '/':
   if num2 != 0:
       resultado = num1 / num2
-      print(f"O resultado da divisao é: {resultado}")
+      print(f"O resultado da divisao é: {resultado:.2f}")
   else:
       print("Erro: Divisão por zero não é permitida")
 else:
